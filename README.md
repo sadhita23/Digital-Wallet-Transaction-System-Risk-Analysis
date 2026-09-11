@@ -160,10 +160,6 @@ The system can generate analytical information such as:
 
 A database trigger is used to automatically assign a risk category to a newly inserted transaction based on its amount.
 
-8. 🔄 Cursor
-
-A cursor is used to process transaction records sequentially for generating a transaction/risk report.
-
 ---
 
 🔍 Transaction Monitoring Workflow
@@ -210,60 +206,7 @@ The project provides reports for:
 - High-value transactions
 - Failed transactions
 - Pending transactions
-- Risk-category distribution
-
----
-
-📸 Project Screenshots
-
-Screenshots of MySQL Workbench outputs can be added here.
-
-Database Tables
-
-- Users Table
-- Wallets Table
-- Wallet Transactions Table
-
-Transaction Monitoring
-
-- Transaction monitoring output
-- High-value transaction output
-- Wallet activity report
-
-Risk Analysis
-
-- Risk categorization output
-- High-risk transaction output
-- Risk summary report
-
----
-
-📁 Project Structure
-
-Digital-Wallet-Transaction-System-Risk-Analysis
-│
-├── README.md
-│
-├── Database
-│   └── database.sql
-│
-├── Data
-│   └── sample_data.sql
-│
-├── Queries
-│   └── queries.sql
-│
-├── Monitoring
-│   └── monitoring_queries.sql
-│
-├── Risk Analysis
-│   └── risk_analysis.sql
-│
-├── Database Programming
-│   ├── trigger.sql
-│   └── cursor.sql
-│
-└── Screenshots
+- Risk-category 
 
 ---
 
